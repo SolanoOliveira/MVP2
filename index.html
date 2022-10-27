@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>UXnator</title>
+  <meta name="description" content="Survey">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container"> 
+    <div class="row">
+     <div class="two-thirds column">
+        <h2>UXnator</h2>
+
+        <div id="progress_bar"></div>
+      <form class="questions_box">
+
+       <div id="question-1">
+         <h2>Questão 1</h2>
+        <h3>Em qual estado está o projeto a ser avaliado?</h3>
+        <input id="question-1-answer-a" type="radio" name="favelang" value="1">Conceitual<br>
+        <input id="question-1-answer-b" type="radio" name="favelang" value="2">Já possui protótipo inicial<br>
+        <input id="question-1-answer-c" type="radio" name="favelang" value="3">Já possui protótipo funcional<br>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="4">O sistema já está completo<br>
+        <div id="submit1" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+       </div>
+
+      <div id="question-2">
+       <h2>Questão 2</h2>
+       <h3>Quem é o avaliador do projeto?</h3>
+        <input id="question-2-answer-a" type="radio" name="favelang" value="1">Expert<br>
+       <input id="question-2-answer-b" type="radio" name="favelang" value="2">Usuário comum<br>
+       <input id="question-2-answer-c" type="radio" name="favelang" value="3">Grupo de usuários<br>
+           <input id="question-2-answer-d" type="radio" name="favelang" value="4">Par de usuários<br>
+       <div id="submit2" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+      </div>
+     
+      <div id="question-3"> 
+       <h2>Questão 3</h2>
+       <h3>Quanto tempo o avaliador tem disponível? - provisório</h3>
+        <input id="question-3-answer-a" type="radio" name="favelang" value="0">10 minutos<br>
+       <input id="question-3-answer-b" type="radio" name="favelang" value="0">1 hora<br>
+       <input id="question-3-answer-c" type="radio" name="favelang" value="0">O dia inteiro<br>
+           <input id="question-3-answer-d" type="radio" name="favelang" value="0">O tempo que precisar<br>
+       <div id="submit3" class="button">Enviar Resposta</div>
+           <div class="clearfix"></div>
+      </div>
+
+         <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Como você prefere receber o resultado? - provisório</h3>
+            <input id="question-4-answer-a" type="radio" name="favelang" value="0">Escrito<br>
+            <input id="question-4-answer-b" type="radio" name="favelang" value="0">Falado<br>
+            <input id="question-4-answer-c" type="radio" name="favelang" value="0">Observado<br>
+            <input id="question-4-answer-d" type="radio" name="favelang" value="0">Tanto faz<br>
+            <div id="submit4" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2>Questão 5</h2>
+            <h3>Documentação? - provisório</h3>
+            <input id="question-5-answer-a" type="radio" name="favelang" value="0">Sim<br>
+            <input id="question-5-answer-b" type="radio" name="favelang" value="0">Não<br>
+            <div id="submit5" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+         <div id="question-6"> 
+           <h2>Obrigado por usar</h2>
+           <h3>Suas técnicas são: </h3>
+           <h1 id=printtotalscore></h1>
+           <p id=printscoreinfo></p>
+
+         </div>
+
+
+      
+      </form>
+
+     </div>
+   </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
